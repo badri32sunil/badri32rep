@@ -1,6 +1,6 @@
 ---
 - name: Simple Test Playbook
-  hosts: localhost
+  hosts: Ubuntu
   gather_facts: no
   become: yes
 
