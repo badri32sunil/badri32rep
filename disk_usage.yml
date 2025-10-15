@@ -1,6 +1,6 @@
 ---
 - name: Simple Test Playbook
-  hosts: all
+  hosts: ALL
   gather_facts: no
   become: yes
 
