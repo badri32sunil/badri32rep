@@ -13,4 +13,6 @@
       command: df -h
       register: disk_usage
 
-    - name: Sh
+    - name: Show disk usage output
+      debug:
+        var: disk_usage.stdout_lines
